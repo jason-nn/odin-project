@@ -1,4 +1,4 @@
-username = prompt("Who's there?");
+let username = prompt("Who's there?");
 
 if (username === 'Admin') {
   password = prompt("What's the magic word");
