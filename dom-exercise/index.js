@@ -36,3 +36,18 @@ itemThreeSubItemTwo.textContent = 'Me too!';
 itemThree.append(itemThreeSubItemOne, itemThreeSubItemTwo);
 
 container.append(itemOne, itemTwo, itemThree);
+
+const buttonTwo = document.querySelector('#button-2');
+buttonTwo.onclick = () => {
+  alert('hello!');
+};
+
+const buttonThree = document.querySelector('#button-3');
+buttonThree.addEventListener('click', () => {
+  alert('hello!');
+});
+
+buttonThree.addEventListener('click', function (e) {
+  console.log(e.target);
+  e.target.style.color = 'blue';
+});
