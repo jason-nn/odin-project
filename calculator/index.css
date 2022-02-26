@@ -103,3 +103,10 @@ button {
 .zero div {
   width: 80px;
 }
+
+.decimal,
+.percent,
+.negative {
+  opacity: 0.2;
+  cursor: not-allowed;
+}
